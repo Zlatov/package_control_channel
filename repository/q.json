@@ -4,7 +4,7 @@
 		{
 			"name": "q KDB",
 			"details": "https://github.com/komsit37/sublime-q",
-			"labels": ["repl", "language syntax", "completion", "build system", "docs", "q", "kdb"],
+			"labels": ["build system", "completions", "language syntax", "repl", "q", "kdb"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -20,6 +20,18 @@
 			"releases": [
 				{
 					"sublime_text": ">=3103",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "QColor",
+			"details": "https://github.com/raphaelquintao/QColor",
+			"labels": ["color", "highlight", "highlighter", "converter", "picker", "hex", "rgb","rgba", "hsla", "hsl"],
+			"author": "Raphael Quintao",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -48,6 +60,7 @@
 		{
 			"name": "QMakeProject",
 			"details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -57,11 +70,11 @@
 		},
 		{
 			"name": "QML",
-			"details": "https://github.com/skozlovf/Sublime-QML",
+			"details": "https://github.com/SublimeText/QML",
 			"labels": ["language syntax", "snippets"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4107",
 					"tags": true
 				}
 			]
@@ -89,19 +102,9 @@
 			]
 		},
 		{
-			"name": "QSwitch",
-			"details": "https://github.com/mintyPT/QSwitch",
-			"releases": [
-				{
-					"sublime_text": "*",
-					"branch": "master"
-				}
-			]
-		},
-		{
 			"name": "Qt Completions for C++",
 			"details": "https://github.com/tushortz/Qt-Completions-for-Cpp",
-			"labels": ["c++","completions", "auto-complete", "completion", "autocomplete", "snippet", "Completion"],
+			"labels": ["auto-complete", "completions", "snippets", "c++"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -112,7 +115,18 @@
 		{
 			"name": "Quake3 Script",
 			"details": "https://github.com/isRyven/Sublime-Text-Q3Script",
-			"labels": ["quake3", "script", "shader", "language syntax", "snippet", "completion"],
+			"labels": ["completions", "language syntax", "snippets", "quake3", "script", "shader"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Quarto",
+			"details": "https://github.com/quarto-dev/quarto-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -177,7 +191,6 @@
 		{
 			"name": "Quick File Move",
 			"details": "https://github.com/wulftone/sublime-text-quick-file-move",
-			"previous_names": ["Quick File Renamer", "QuickFileMove"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -207,12 +220,25 @@
 		{
 			"name": "QuickEdit",
 			"details": "https://github.com/gamcoh/QuickEdit",
-			"labels": ["Html", "Css", "php", "Quick", "Edition"],
+			"labels": ["html", "css", "php", "quick edition"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"tags": true,
 					"platforms": "*"
+				}
+			]
+		},
+		{
+			"name": "Quickfix List",
+			"details": "https://github.com/cibinmathew/sublime_quickfix_list",
+			"author": "Cibin Mathew",
+			"labels": ["navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"platforms": ["osx", "linux"],
+					"tags": true
 				}
 			]
 		},
@@ -266,17 +292,6 @@
 			]
 		},
 		{
-			"name": "QuickPuTTY",
-			"details": "https://github.com/Nikita-Panyuhin/QuickPuTTY",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"platforms": ["windows", "linux"],
-					"tags": true
-				}
-			]
-		},
-		{
 			"details": "https://github.com/danpe/QuickRails",
 			"previous_names": ["Quick Rails"],
 			"releases": [
@@ -289,7 +304,6 @@
 		{
 			"name": "QuickRef Command Lookup",
 			"details": "https://bitbucket.org/rablador/quickref",
-			"previous_names": ["QuickRef"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -347,11 +361,33 @@
 			]
 		},
 		{
+			"name": "QuickTemplate (Go)",
+			"details": "https://github.com/SharanSharathi/sublime_qtpl",
+			"labels": ["auto-complete", "build system", "language syntax", "template", "go", "qtpl"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"details": "https://github.com/chrislongo/QuickThemes",
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "QuickView",
+			"details": "https://github.com/jwortmann/quick-view",
+			"labels": ["color", "image", "preview"],
+			"releases": [
+				{
+					"sublime_text": ">=3170",
+					"tags": true
 				}
 			]
 		},
@@ -382,6 +418,18 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Quote With Marker",
+			"author": "Denny Korsukéwitz",
+			"details": "https://github.com/dennykorsukewitz/Sublime-QuoteWithMarker",
+			"labels": ["quote", "workflow", "codemarker", "marker", "markers", "comment", "commentline", "patch", "patcher", "diff", "compare", "helper"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},

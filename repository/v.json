@@ -2,6 +2,17 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
+			"name": "V",
+			"details": "https://github.com/elliotchance/vlang-sublime",
+			"labels": ["language syntax", "v", "vlang"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Vagrant",
 			"details": "https://github.com/Stubbs/sublime-vagrant",
 			"releases": [
@@ -14,7 +25,7 @@
 		{
 			"name": "Vala-TMBundle",
 			"details": "https://github.com/technosophos/Vala-TMBundle",
-			"labels": ["language syntax", "Vala"],
+			"labels": ["language syntax", "vala"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -36,7 +47,7 @@
 		{
 			"name": "Valgrind",
 			"details": "https://github.com/oliverseal/sublime-text-valgrind",
-			"labels": ["language syntax", "valgrind", "c", "c++", "cpp"],
+			"labels": ["language syntax", "c", "c++", "valgrind"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -89,7 +100,7 @@
 		{
 			"name": "Varicolor",
 			"details": "https://github.com/evan-erdos/varicolor",
-			"labels": ["highlighting","tmLanguage","sublime-syntax"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3084",
@@ -111,7 +122,7 @@
 		{
 			"name": "Varnish VCL",
 			"details": "https://github.com/brandonwamboldt/sublime-varnish",
-			"labels": ["vcl", "varnish", "language", "syntax"],
+			"labels": ["vcl", "varnish", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -132,6 +143,7 @@
 		{
 			"name": "Vash",
 			"details": "https://github.com/theoperatore/VashSyntaxDefinition",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -152,6 +164,7 @@
 		},
 		{
 			"details": "https://github.com/SublimeText/VBScript",
+			"labels": ["language syntax", "vb", "visual basic"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -184,7 +197,7 @@
 		{
 			"name": "VDP Logs",
 			"details": "https://github.com/narendrans/sublime-vdp-logs",
-			"labels": ["syntax","vdp","denodo"],
+			"labels": ["language syntax","vdp","denodo"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -195,9 +208,21 @@
 		{
 			"name": "Veeam Logs Helper",
 			"details": "https://github.com/yandexx/VeeamLogsHelper",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3124",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Vento",
+			"details": "https://github.com/ventojs/sublime-vento",
+			"labels": ["vento", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3126",
 					"tags": true
 				}
 			]
@@ -213,8 +238,19 @@
 			]
 		},
 		{
+			"name": "VeribleFormatterVerilog",
+			"details": "https://github.com/sxr1223/VeribleFormatterVerilog",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Verilog",
 			"details": "https://github.com/pro711/sublime-verilog",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -267,6 +303,7 @@
 		},
 		{
 			"details": "https://github.com/mhilborn/VGR-Assistant",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -288,10 +325,32 @@
 		{
 			"name": "VHDL Mode",
 			"details": "https://github.com/Remillard/VHDL-Mode",
-			"labels": ["language syntax", "snippets", "VHDL"],
+			"labels": ["language syntax", "snippets", "vhdl"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "VHS",
+			"details": "https://github.com/patopesto/Sublime-Text-VHS-Syntax",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4107",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "View Bookmarks",
+			"details": "https://github.com/adam-zethraeus/SublimeViewBookmarks",
+			"labels": ["bookmarks", "file navigation"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -340,7 +399,7 @@
 			"name": "VimL",
 			"details": "https://github.com/SalGnt/Sublime-VimL",
 			"author": "Salvatore Gentile",
-			"labels": ["language", "syntax"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -352,7 +411,7 @@
 			"name": "VimModelines",
 			"details": "https://github.com/pestilence669/VimModelines",
 			"author": "Paul Chandler",
-			"labels": ["vim", "indentation", "modeline", "formatting"],
+			"labels": ["formatting", "vim", "indentation", "modeline"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -378,6 +437,17 @@
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Vintage Relative Lines",
+			"details": "https://github.com/bicarlsen/vintage_relnums",
+			"labels": [ "vintage", "line numbers" ],
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"tags": true
 				}
 			]
 		},
@@ -474,7 +544,6 @@
 		{
 			"name": "VintageousOrigami",
 			"details": "https://github.com/rodcloutier/Vintageous-Origami",
-			"previous_names": ["Vintageous Origami"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -507,7 +576,7 @@
 			"name": "Virtual Host Snippet",
 			"details": "https://github.com/unknownuser88/virtualhost",
 			"author": "David Bekoyan",
-			"labels": ["snippets", "auto-complete"],
+			"labels": ["auto-complete", "snippets"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -528,9 +597,11 @@
 			]
 		},
 		{
-			"name": "Visual Studio Bold Color Scheme",
-			"details": "https://github.com/Trismegistos84/visual-studio-bold",
-			"labels": ["color scheme"],
+			"name": "Visual studio code",
+			"description": "Open visual studio code from sublime, light integration",
+			"details": "https://github.com/stoivo/sublime-open-in-vscode",
+			"issues": "https://github.com/stoivo/sublime-open-in-vscode/issues",
+			"labels": ["vscode", "visual studio code"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -539,11 +610,10 @@
 			]
 		},
 		{
-			"name": "Visual studio code",
-			"description": "Open visual studio code from sublime, light integration",
-			"details": "https://github.com/stoivo/sublime-open-in-vscode",
-			"issues": "https://github.com/stoivo/sublime-open-in-vscode/issues",
-			"labels": ["vscode", "visual studio code"],
+			"name": "Visual Studio Code Plus Scheme",
+			"details": "https://github.com/vbasky/sublime-vscode-plus",
+			"issues": "https://github.com/vbasky/sublime-vscode-plus/issues",
+			"labels": ["color scheme"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -577,7 +647,7 @@
 			"name": "Visualforce",
 			"details": "https://github.com/brnrc/sublime-visualforce",
 			"author": "Bruno Cardoso",
-			"labels": ["language syntax", "auto-complete"],
+			"labels": ["auto-complete", "language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -592,17 +662,6 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
-			"name": "VisualizeZeroWidthChars",
-			"details": "https://github.com/jfcherng-sublime/ST-VisualizeZeroWidthChars",
-			"author": ["jfcherng"],
-			"releases": [
-				{
-					"sublime_text": ">=3118",
 					"tags": true
 				}
 			]
@@ -672,8 +731,21 @@
 			]
 		},
 		{
+			"name": "VPC Script",
+			"details": "https://github.com/GitSparTV/VPCSyntaxHighlighting",
+			"author": "Spar",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Vray",
 			"details": "https://github.com/Aloiseau/VraySublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -722,16 +794,26 @@
 			]
 		},
 		{
-			"name": "Vue Syntax Highlight",
-			"details": "https://github.com/vuejs/vue-syntax-highlight",
+			"name": "Vue",
+			"details": "https://github.com/SublimeText/Vue",
+			"previous_names": ["Vue Syntax Highlight"],
+			"labels": ["language syntax", "vue", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "<3153",
 					"tags": "oldsyntax-"
 				},
 				{
-					"sublime_text": ">=3153",
+					"sublime_text": "3153 - 4106",
 					"tags": "newsyntax-"
+				},
+				{
+					"sublime_text": "4107 - 4125",
+					"tags": "4107-"
+				},
+				{
+					"sublime_text": ">=4126",
+					"tags": "4126-"
 				}
 			]
 		},
@@ -749,6 +831,7 @@
 		{
 			"name": "Vuejs Complete Package",
 			"details": "https://github.com/BrainBuzzer/vuejs-sublime-complete",
+			"labels": ["language syntax", "vue", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -759,6 +842,7 @@
 		{
 			"name": "Vuejs Snippets",
 			"details": "https://github.com/filipelinhares/vuejs-snippets-sublime",
+			"labels": ["snippets", "vue", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -769,6 +853,7 @@
 		{
 			"name": "Vuejs Snippets Airbnb",
 			"details": "https://github.com/kavalcante/vuejs-snippets-airbnb-sublime",
+			"labels": ["snippets", "vue", "javascript"],
 			"releases": [
 				{
 					"sublime_text": "*",

@@ -46,9 +46,20 @@
 			]
 		},
 		{
+			"name": "Hacklang",
+			"details": "https://github.com/albertxing/sublime-hacklang",
+			"labels": ["language syntax", "language", "hacklang"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hacklang Typechecker and Autocompletion",
 			"details": "https://github.com/SiebelsTim/hack-sublime",
-			"labels": ["language syntax", "linting", "auto-complete", "language", "hacklang"],
+			"labels": ["auto-complete", "language syntax", "linting", "hacklang"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -70,7 +81,20 @@
 		{
 			"name": "HACS Syntax",
 			"details": "https://github.com/tbpalsulich/hacs_sublime_text_theme",
-			"labels": ["language syntax", "linting", "auto-complete", "language", "hacs", "compiler"],
+			"labels": ["auto-complete", "compiler", "language syntax", "linting", "hacs"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hadar Theme",
+			"author": "Cristian Vásquez",
+			"details": "https://github.com/cristianvasquezc/hadar-sublime-text",
+			"labels": ["theme", "color scheme", "dark", "hadar", "hadar theme"
+			],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -93,6 +117,7 @@
 		{
 			"name": "Haml",
 			"details": "https://github.com/phuibonhoa/handcrafted-haml-textmate-bundle",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -115,6 +140,7 @@
 		{
 			"name": "Hamlpy",
 			"details": "https://github.com/Nivl/sublime-hamlpy",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -145,6 +171,17 @@
 			]
 		},
 		{
+			"name": "Hammock Color Scheme",
+			"details": "https://github.com/AlanLynn/hammock-sublime-textmate",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Handlebars",
 			"details": "https://github.com/daaain/Handlebars",
 			"labels": ["language syntax", "snippets", "templating"],
@@ -156,9 +193,21 @@
 			]
 		},
 		{
+			"name": "HandyLLM",
+			"details": "https://github.com/atomiechen/Sublime-HandyLLM",
+			"author": "Atomie CHEN",
+			"labels": ["build system", "language syntax", "snippets"],
+			"releases": [
+				{
+					"sublime_text": ">=3092",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hansl-Gretl-Language",
 			"details": "https://github.com/atecon/Hansl-Gretl-Language",
-			"labels": ["language syntax", "snippets", "completions"],
+			"labels": ["completions", "language syntax", "snippets"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -179,7 +228,6 @@
 		},
 		{
 			"name": "haoide",
-			"previous_names": ["Salesforce IDE"],
 			"details": "https://github.com/xjsender/haoide",
 			"releases": [
 				{
@@ -201,9 +249,21 @@
 		{
 			"name": "Haproxy",
 			"details": "https://github.com/ramonfritsch/sublime-haproxy",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hare",
+			"details": "https://github.com/artursartamonovs/hare-highlight",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -243,6 +303,7 @@
 		{
 			"name": "Harvey",
 			"details": "https://github.com/rayje/harvey-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -272,9 +333,20 @@
 			]
 		},
 		{
+			"name": "Haskell HSX",
+			"details": "https://github.com/digitallyinduced/sublime-text-hsx",
+			"labels": ["language syntax", "haskell", "hsx", "ihp"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Haskell NSIS",
 			"details": "https://github.com/idleberg/sublime-haskell-nsis",
-			"labels": ["snippets", "auto-complete", "nsis"],
+			"labels": ["auto-complete", "snippets", "nsis"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -285,7 +357,7 @@
 		{
 			"name": "Haxe",
 			"details": "https://github.com/clemos/haxe-sublime-bundle",
-			"previous_names": ["HaXe"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -316,6 +388,7 @@
 		{
 			"name": "HDL Syntax Highlighting",
 			"details": "https://github.com/shreyasminocha/Sublime-HDL",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -324,13 +397,13 @@
 			]
 		},
 		{
-			"name": "HDLProject",
-			"details": "https://github.com/bootsiaz/sublime-hdlproject",
-			"author": "Andrew Carter",
-			"labels": ["vhdl", "verilog", "fpga"],
+			"name": "HDL_Automation",
+			"details": "https://github.com/ToTamire/HDL_Automation",
+			"labels": ["formatting", "text manipulation"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"platforms": ["windows", "linux"],
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -357,8 +430,7 @@
 		},
 		{
 			"name": "Helium",
-			"details": "https://github.com/pykong/Helium",
-			"previous_names": ["Hermes"],
+			"details": "https://github.com/SublimeText/Helium",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -367,11 +439,13 @@
 			]
 		},
 		{
-			"details": "https://github.com/damien-biasotto/Help",
+			"name": "Heta",
+			"details": "https://github.com/hetalang/heta-highlight-sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
-					"sublime_text": "<3000",
-					"branch": "master"
+					"sublime_text": "*",
+					"tags": true
 				}
 			]
 		},
@@ -443,7 +517,7 @@
 		{
 			"name": "hextoASCII",
 			"details": "https://github.com/ALLZ/hextoASCII",
-			"labels": ["text manipulation", "hexadecimal", "ASCII", "converter"],
+			"labels": ["text manipulation", "hexadecimal", "ascii", "converter"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -453,6 +527,7 @@
 		},
 		{
 			"details": "https://github.com/facelessuser/HexViewer",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -549,10 +624,21 @@
 		{
 			"name": "Highlight Duplicates",
 			"details": "https://github.com/LordBrom/HighlightDuplicates",
-			"previous_names": ["HighlightDuplicates"],
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Highlight Token",
+			"details": "https://github.com/cepthomas/SbotHighlight",
+			"labels": ["highlight"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -582,7 +668,6 @@
 			"name": "Highlighter",
 			"details": "https://github.com/bluegray/Highlighter",
 			"labels": ["formatting"],
-			"previous_names": ["Highlight-Mixed-Whitespace"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -611,6 +696,17 @@
 			]
 		},
 		{
+			"name": "Hippie Autocomplete",
+			"details": "https://github.com/Suor/sublime-hippie-autocomplete",
+			"labels": ["auto-complete"],
+			"releases": [
+				{
+					"sublime_text": ">4050",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Hipster",
 			"details": "https://github.com/bjarneo/hipster",
 			"releases": [
@@ -633,6 +729,7 @@
 		{
 			"name": "HISE Script",
 			"details": "https://github.com/Levitanus/HISEScript-Sublime",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -641,12 +738,12 @@
 			]
 		},
 		{
-			"name": "Hivacruz Color Scheme",
+			"name": "Hivacruz Theme",
 			"details": "https://github.com/kinoute/hivacruz-sublime-theme",
 			"labels": ["color scheme", "theme", "hivacruz", "dark"],
 			"releases": [
 				{
-					"sublime_text": ">=3000",
+					"sublime_text": ">=3211",
 					"tags": true
 				}
 			]
@@ -654,6 +751,7 @@
 		{
 			"name": "HIVE Log File",
 			"details": "https://github.com/digitalinblue/SublimeHIVELogHighlighter",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -686,6 +784,7 @@
 		{
 			"name": "Hjson",
 			"details": "https://github.com/hjson/sublime-hjson",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "<3000",
@@ -722,6 +821,7 @@
 		{
 			"name": "HMMM",
 			"details": "https://github.com/shickey/HMMM",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -742,7 +842,19 @@
 		{
 			"name": "HOCON Syntax Highlighting",
 			"details": "https://github.com/NeQuissimus/Sublime-Hocon",
+			"labels": ["language syntax"],
 			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name" : "Hog",
+			"details" : "https://github.com/Hog-CERN/HogSublime",
+			"labels": ["language syntax"],
+			"releases" : [
 				{
 					"sublime_text": "*",
 					"tags": true
@@ -794,7 +906,7 @@
 		{
 			"name": "HoogleSearch",
 			"details": "https://github.com/s4wny/HoogleSearch",
-			"author": "Sawny",
+			"author": "Penny Chase",
 			"labels": ["haskell", "hoogle"],
 			"releases": [
 				{
@@ -839,7 +951,7 @@
 			"name": "Hope",
 			"details": "https://github.com/Kikobeats/Hope-Snippets",
 			"author": "Kiko Beats",
-			"labels": ["coffeescript", "nodejs", "promises", "snippets", "pattern"],
+			"labels": ["snippets", "coffeescript", "nodejs", "promises", "pattern"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -883,7 +995,6 @@
 			"name": "Hosts",
 			"details": "https://github.com/tijn/hosts.tmLanguage",
 			"labels": ["language syntax"],
-			"previous_names": ["hosts"],
 			"author": ["tijn", "michaelblyons"],
 			"releases": [
 				{
@@ -895,6 +1006,7 @@
 		{
 			"name": "HostsEdit",
 			"details": "https://github.com/martinssipenko/SublimeHostsEdit",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -908,6 +1020,16 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Hotspots",
+			"details": "https://github.com/x0th/hotspots",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
 					"tags": true
 				}
 			]
@@ -928,6 +1050,16 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "HoverDocs",
+			"details": "https://github.com/gladclef/HoverDocs",
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -966,6 +1098,7 @@
 		{
 			"name": "HSP",
 			"details": "https://github.com/potato4d/sublime-HSP",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -979,8 +1112,12 @@
 			"labels": ["language syntax", "completions"],
 			"releases": [
 				{
-					"sublime_text": ">=3153",
-					"tags": true
+					"sublime_text": "3153 - 4133",
+					"tags": "version/st3153/"
+				},
+				{
+					"sublime_text": ">=4134",
+					"tags": "version/st4134/"
 				}
 			]
 		},
@@ -1018,6 +1155,7 @@
 		{
 			"name": "HTML Extended",
 			"details": "https://github.com/orizens/html-extended",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1048,6 +1186,7 @@
 		{
 			"name": "HTML Mustache",
 			"details": "https://github.com/adamchainz/SublimeHTMLMustache",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1090,7 +1229,7 @@
 		{
 			"name": "HTML String to Js Multiline",
 			"details": "https://github.com/braianj/sublime-jsstringtomultiline",
-			"labels": ["javascript", "html","formatting"],
+			"labels": ["formatting", "javascript", "html"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1101,7 +1240,7 @@
 		{
 			"name": "HTML Syntax in Script",
 			"details": "https://github.com/cmcleese/sublime-html-script-all",
-			"labels": ["syntax", "html", "script", "highlighting"],
+			"labels": ["language syntax", "html", "script"],
 			"releases": [
 				{
 					"sublime_text": ">=3170",
@@ -1146,6 +1285,7 @@
 		{
 			"name": "HTML Underscore Syntax",
 			"details": "https://github.com/johnrork/ST3-HTML-Underscore-Syntax",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1292,7 +1432,6 @@
 			"name": "HTTP Headers Reindent",
 			"details": "https://github.com/T0nyX1ang/HttpHeadersReindent",
 			"author": "Tony Xiang",
-			"description": "A tool to reindent http header file from Fiddler to Python dictionary format",
 			"releases": [
 				{
 					"sublime_text": ">=3000",
@@ -1328,7 +1467,7 @@
 		{
 			"name": "HTTP Spec Syntax",
 			"details": "https://github.com/samsalisbury/Sublime-HTTP",
-			"labels": ["syntax", "http", "spec"],
+			"labels": ["language syntax", "http", "spec"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1349,7 +1488,7 @@
 		{
 			"name": "HttpUnit",
 			"details": "https://github.com/gaohuia/HttpUnit",
-			"issues" : "https://github.com/gaohuia/HttpUnit/issues",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": ">=3092",
@@ -1412,6 +1551,7 @@
 		{
 			"name": "Hyle",
 			"details": "https://github.com/Hyle-Script/Hyle-Sublime-Plugin",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1443,7 +1583,7 @@
 		{
 			"name": "Hyperion for gettext",
 			"details": "https://github.com/thie1210/hyperion",
-			"previous_names": ["Hyperion"],
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1454,6 +1594,7 @@
 		{
 			"name": "Hyperledger Composer",
 			"details": "https://github.com/chevdor/HyperledgerComposerSublimeText",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -1464,10 +1605,22 @@
 		{
 			"name": "Hyperloop EJS",
 			"details": "https://github.com/yuchi/hyperloop-ejs",
+			"labels": ["language syntax"],
 			"releases": [
 				{
 					"sublime_text": "*",
 					"branch": "master"
+				}
+			]
+		},
+		{
+			"name": "Hyperscript",
+			"details": "https://github.com/gnat/hyperscript-sublime",
+			"labels": ["language syntax", "html", "script", "htmx", "javascript"],
+			"releases": [
+				{
+					"sublime_text": ">=4121",
+					"tags": true
 				}
 			]
 		},
